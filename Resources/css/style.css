@@ -25,6 +25,7 @@ header {
   header .logo1{
       padding-left: 24px;
       padding-right: 10px;
+      min-width: 50px;
   }
   
   header nav ul {
@@ -110,6 +111,31 @@ header {
     font-weight: bolder;
     font-size: 24px;
   }
+
+@media only screen and (max-width: 760px) {
+  .maincontent{
+    top:64px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: rgb(197, 194, 194);
+  }
+  
+  .banner img{
+    padding: 0px;
+    margin-top: -16px !important;
+    margin: 0px;
+    max-width: 100%;   
+  }
+
+  .learn{
+    margin-top: -600px;
+    padding-left: 32px;
+    padding-top: 32px;
+    font-size: 19px;
+  }
+}
+
 
 
   
