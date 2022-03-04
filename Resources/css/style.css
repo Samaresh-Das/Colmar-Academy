@@ -1,0 +1,117 @@
+html{
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    border-bottom: solid 1px #c6c1c1;
+    background-color: white;
+    top: 0;
+  }
+
+  header .head{
+      display: flex;
+      align-items: center;
+  }
+
+  header .logo {
+    flex: 1;
+    height: 32px;
+    font-size: 34px;
+  }
+
+  header .logo1{
+      padding-left: 24px;
+      padding-right: 10px;
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style-type: none;
+  }
+
+  nav li {
+    padding: 16px;
+    font-size: 20px;
+  }
+
+  .aca{
+      color: gray;
+  }
+
+  nav li:last-child {
+    padding-right: 40px;
+  }
+  header .mobile {
+    display: none;
+  }
+
+  @media only screen and (max-width: 760px) {
+    header .desktop {
+        display: none;
+      }
+
+      header .logo1{
+        display: none;
+    }
+    
+      header .mobile {
+        display: block;
+        width: 100%;
+        height: 64px;
+      }
+    
+      header .head {
+        padding: 10px 0;
+      }
+    
+      header .mobile ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        padding-left: 10px;
+        margin-top: 2px;
+      }
+    
+      header .mobile li {
+        padding-left: 0;
+      }  
+  }
+
+  .maincontent{
+      top:64px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      background-color: rgb(197, 194, 194);
+  }
+
+  .banner{
+    background-color: rgb(197, 194, 194);
+    height: 980px;
+    margin-top: 30px;
+    
+  }
+
+  .banner img{
+    top: 64px;
+    position: relative;
+    align-content: center;
+    background-size: cover;
+    padding: 32px 24px;
+  }
+
+  .learn{
+    top: 64px;
+    color: rgb(67, 68, 70);
+    font-weight: bolder;
+    font-size: 24px;
+  }
+
+
+  
+
+  
