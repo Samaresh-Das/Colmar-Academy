@@ -1,0 +1,161 @@
+/*FOR HEADER*/
+@media only screen and (max-width: 900px) {
+    header .desktop {
+        display: none;
+      }
+
+      header .logo1{
+        display: none;
+    }
+    
+      header .mobile {
+        display: block;
+        width: 100%;
+        height: 64px;
+      }
+    
+      header .head {
+        padding: 10px 0;
+      }
+    
+      header .mobile ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        padding-left: 10px;
+        margin-top: 2px;
+      }
+    
+      header .mobile li {
+        padding-left: 0;
+      }  
+  }
+
+  /*FOR MAIN CONTENT*/
+@media only screen and (max-width: 900px) {    
+    
+    .maincontent{
+        display: none;
+    }
+
+    .maincontentm{
+        display: flex;
+        flex-direction: column;
+        top:64px;
+        align-items: center;
+        background-color: rgb(197, 194, 194);
+         
+    }
+
+    .bannerm img{
+      padding: 0px;
+      margin-top: 64px !important;
+      margin: 0px;
+      max-width: 100%;  
+      bottom: 0;
+      z-index: 1;
+    }
+  
+    .learnm{
+      padding: 32px;
+      font-size: 19px;text-align: center;
+      background-repeat: no-repeat;  
+      align-content: center;
+    }
+  
+    .startm{
+      border: 1px solid gray;
+      background-color: rgb(53, 50, 50);
+      color: white;
+      text-align: center;
+      padding: 10px;
+      max-width: 350px;
+      margin: auto;
+      align-content: center;
+    }
+  }
+
+  /*FOR INFO*/
+  @media only screen and (max-width: 900px) {
+      .info{
+          display: none;
+      }
+
+      .learn{
+          display: none;
+      }
+}
+
+@media only screen and (max-width: 900px) {
+
+    .infom{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .boxesm{
+        margin-right: 16px;
+        margin: 0px;
+        
+    }
+
+    .boxm{
+        padding: 16px 16px 64px;
+        max-width: 100%;
+    }
+
+    .boxm img{
+        max-width: 100%;
+    }
+
+    .boxm h4,
+    p,
+    a{
+        padding-left: 16px;
+    }
+
+    .boxm h4{
+        font-weight: bolder;
+        font-size: 40px;
+        color: rgb(86, 88, 90);
+    }
+
+    .boxm p{
+        font-size: 20px;
+        color: rgb(65, 65, 65);
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+    .learn{
+        display: none;
+    }
+
+    .learnm {
+        display: flex;
+        flex-direction: column;
+        font-weight: bolder;   
+        border: 1px solid rgb(170, 170, 170);  
+        background-color: rgb(238, 238, 238);  
+    }
+
+    .learnm h3{
+        padding: 32px auto 16px;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    .boxmm{
+        background-color: rgb(156, 156, 156);
+        padding: 16px auto 32px;
+        background-color: rgb(167, 167, 167);
+        margin-bottom: 8px;
+    }
+
+    .boxmm h4{
+        font-size: 25px;
+        color: rgb(41, 41, 41);
+    }
+}
