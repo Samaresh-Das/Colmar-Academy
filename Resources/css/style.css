@@ -249,6 +249,69 @@ header {
   display: none;
 }
 
+.thesis{
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+
+h3{
+  text-align: center;
+  padding-top: 32px;
+  font-size: 50px;
+  font-weight: bolder;
+  color: rgb(86, 88, 90);
+
+}
+
+.cat1{
+  max-width: 70%;
+  padding: 0px 32px 24px;
+}
+.cat1 video{
+  max-width: 100%;
+  
+}
+
+.cat1 h4{
+  font-weight: bolder;
+  font-size: 40px;
+  color: color: rgb(86, 88, 90);
+  padding: 24px auto 8px;
+}
+
+.cat1 p{
+  color: rgb(86, 88, 90);
+  font-size: 20px;
+}
+
+.cat2{
+  display: flex;
+  flex-direction: column;
+  min-width: 40%;
+}
+
+.cate1{
+  display: flex;
+  flex-direction: row;
+  padding: 16px;
+}
+
+.cate1 .catxt{
+  padding-left: 16px;
+}
+
+.catxt h4{
+  font-weight: bolder;
+  font-size: 40px;
+  color: #494949;
+}
+
+.cat2 .c1{
+  background-color: #c6c1c1;
+}
+
+
 
   
 
