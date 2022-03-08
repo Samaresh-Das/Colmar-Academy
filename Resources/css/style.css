@@ -50,8 +50,6 @@ header {
     display: none;
   }
 
-  
-
   .maincontent{
       top:64px;
       display: flex;
@@ -80,6 +78,7 @@ header {
     color: rgb(67, 68, 70);
     font-weight: bolder;
     font-size: 24px;
+    background-color: rgb(197, 194, 194) !important;
   }
 
   .start{
@@ -276,7 +275,7 @@ h3{
 .cat1 h4{
   font-weight: bolder;
   font-size: 40px;
-  color: color: rgb(86, 88, 90);
+  color:rgb(86, 88, 90);
   padding: 24px auto 8px;
 }
 
@@ -309,6 +308,31 @@ h3{
 
 .cat2 .c1{
   background-color: #c6c1c1;
+}
+
+footer .desk{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+}
+
+footer .desk h5{
+  padding-top: 16px;
+  padding-left: 24px;
+  font-weight: bold;
+  font-size: 19px;
+  color: #494949;
+}
+
+footer .desk p{
+  float: right;
+  padding-top: 16px;
+  padding-right: 24px;
+  font-size: 19px;
+}
+
+.thesism{
+  display: none;
 }
 
 
